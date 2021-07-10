@@ -1,4 +1,4 @@
-FROM php:7.2-apache-stretch
+FROM php:7.3-apache-stretch
 
 RUN docker-php-ext-install pdo_mysql opcache \
     && a2enmod rewrite negotiation
